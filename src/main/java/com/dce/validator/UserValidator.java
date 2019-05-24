@@ -1,7 +1,8 @@
-package com.dce.auth.validator;
+package com.dce.validator;
 
-import com.dce.auth.model.User;
-import com.dce.auth.service.UserService;
+import com.dce.model.User;
+import com.dce.service.UserService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;

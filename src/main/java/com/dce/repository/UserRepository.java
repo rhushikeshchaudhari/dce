@@ -1,7 +1,8 @@
-package com.dce.auth.repository;
+package com.dce.repository;
 
-import com.dce.auth.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.dce.model.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
     User findByUsername(String username);
