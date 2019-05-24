@@ -1,4 +1,4 @@
-package com.dce.auth.service;
+package com.dce.service;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -11,8 +11,8 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.dce.auth.model.User;
-import com.dce.auth.repository.UserRepository;
+import com.dce.model.User;
+import com.dce.repository.UserRepository;
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService{

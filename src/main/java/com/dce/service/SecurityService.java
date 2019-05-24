@@ -1,4 +1,4 @@
-package com.dce.auth.service;
+package com.dce.service;
 
 public interface SecurityService {
     String findLoggedInUsername();

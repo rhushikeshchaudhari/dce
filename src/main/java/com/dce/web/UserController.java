@@ -1,9 +1,10 @@
-package com.dce.auth.web;
+package com.dce.web;
 
-import com.dce.auth.model.User;
-import com.dce.auth.service.SecurityService;
-import com.dce.auth.service.UserService;
-import com.dce.auth.validator.UserValidator;
+import com.dce.model.User;
+import com.dce.service.SecurityService;
+import com.dce.service.UserService;
+import com.dce.validator.UserValidator;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

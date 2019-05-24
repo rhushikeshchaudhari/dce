@@ -1,4 +1,4 @@
-package com.dce.auth.service;
+package com.dce.service;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.dce.auth.model.User;
-import com.dce.auth.repository.UserRepository;
+import com.dce.model.User;
+import com.dce.repository.UserRepository;
 
 @Service
 public class UserServiceImpl implements UserService {

@@ -1,4 +1,4 @@
-package com.dce.auth.model;
+package com.dce.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
