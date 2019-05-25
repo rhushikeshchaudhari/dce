@@ -5,6 +5,8 @@ import com.dce.service.SecurityService;
 import com.dce.service.UserService;
 import com.dce.validator.UserValidator;
 
+import java.security.Principal;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -63,7 +65,8 @@ public class UserController {
 
 
     @GetMapping({"/", "/welcome"})
-    public String welcome(Model model) {
-        return "welcome";
+    public String welcome(Model model,Principal principal) {
+    	model.addAttribute("username", principal.getName());
+        return "dashboard";
     }
 }

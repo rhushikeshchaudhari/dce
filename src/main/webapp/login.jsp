@@ -41,8 +41,6 @@
 			</div>
 		</div><!-- /.col-->
 	</div><!-- /.row -->	
-	
-
 <script src="${contextPath}/resources/js/jquery-1.11.1.min.js"></script>
 	<script src="${contextPath}/resources/js/bootstrap.min.js"></script>
 </body>
