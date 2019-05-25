@@ -66,7 +66,8 @@ public class UserController {
 
     @GetMapping({"/", "/welcome"})
     public String welcome(Model model,Principal principal) {
-    	model.addAttribute("username", principal.getName());  
-    	return "dashboard";
+    	model.addAttribute("username", principal.getName());
+        return "dashboard";
     }
 }
+
